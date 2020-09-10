@@ -226,4 +226,5 @@ class erosion_dilatation:
             self.tampon(lyr_dis, -dbuffer, writer_out)
             self.iface.addVectorLayer(outFn, '', 'ogr')
             #commentaire pour git
+            #commentaire 2 pour git
             pass
