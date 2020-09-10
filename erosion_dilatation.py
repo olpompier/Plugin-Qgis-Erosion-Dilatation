@@ -225,5 +225,5 @@ class erosion_dilatation:
             writer_out = QgsVectorFileWriter(outFn, 'UTF-8', fields, QgsWkbTypes.Polygon, lyr.sourceCrs(), 'ESRI Shapefile')
             self.tampon(lyr_dis, -dbuffer, writer_out)
             self.iface.addVectorLayer(outFn, '', 'ogr')
-
+            #commentaire pour git
             pass
